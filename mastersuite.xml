@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hashtag">
+	
+  <listeners><listener class-name="utilities.ExtentReportManager"></listener></listeners>
+  <test thread-count="5" name="Hashtag">
+  <parameter name="browser" value="chrome"></parameter>
+	  
+      <classes>
+      <class name="testCases.TC_001_Services"/>
+      <class name="testCases.TC_001_1_Wordpress_development"/>
+      <class name="testCases.TC_001_2_Blockchain_Dev"/>
+      <class name="testCases.TC_001_3_Design_Prototyping"/>
+      <class name="testCases.TC_002_Shopify"/>
+      <class name="testCases.TC_003_Blogs"/>
+      <class name="testCases.TC_004_Careers"/>
+      <class name="testCases.TC_005_Case_Studies"/>
+      <class name="testCases.TC_006_About_us"/>
+      </classes> 
+    
+  </test> <!-- OpencartTest -->
+  
+
+  
+</suite> <!-- OpencartSuite -->
